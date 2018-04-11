@@ -1,0 +1,33 @@
+@charset "utf-8";
+body,html{
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	width:100%;
+}
+.login{
+	height: 100%;
+	width:100%;
+	word-wrap: break-word;
+    word-break: break-all;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.login-box{
+	height: 50%;
+	width:400px;
+	position:relative;
+	top: 50%;
+	left: 50%;
+	background: rgba(211,211,211,0.2);
+	/*background: #fff;*/
+	-webkit-transform: translateX(-50%) translateY(-50%);
+}
+.form{background: rgba(255,255,255,0.2);width:400px;margin:100px auto;}  
+            #login_form{display: block;}  
+            #register_form{display: none;}  
+            .fa{display: inline-block;top: 27px;left: 6px;position: relative;color: #ccc;}  
+            input[type="text"],input[type="password"]{padding-left:26px;}  
+            .checkbox{padding-left:21px;}
